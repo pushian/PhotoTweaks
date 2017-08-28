@@ -1,0 +1,6 @@
+framework module PushianPhotoTweaks {
+  umbrella header "PushianPhotoTweaks.h"
+
+  export *
+  module * { export * }
+}

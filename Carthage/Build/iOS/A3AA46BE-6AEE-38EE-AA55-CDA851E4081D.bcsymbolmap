@@ -1,0 +1,287 @@
+BCSymbolMap Version: 2.0
+-[PhotoTweaksViewController initWithImage:]
+-[PhotoTweaksViewController viewDidLoad]
+-[PhotoTweaksViewController setupSubviews]
+-[PhotoTweaksViewController cancelBtnTapped]
+-[PhotoTweaksViewController saveBtnTapped]
+___42-[PhotoTweaksViewController saveBtnTapped]_block_invoke
+-[PhotoTweaksViewController newScaledImage:withOrientation:toSize:withQuality:]
+-[PhotoTweaksViewController newTransformedImage:sourceImage:sourceSize:sourceOrientation:outputWidth:cropSize:imageViewSize:]
+-[PhotoTweaksViewController preferredStatusBarStyle]
+-[PhotoTweaksViewController didReceiveMemoryWarning]
+-[PhotoTweaksViewController image]
+-[PhotoTweaksViewController autoSaveToLibray]
+-[PhotoTweaksViewController setAutoSaveToLibray:]
+-[PhotoTweaksViewController maxRotationAngle]
+-[PhotoTweaksViewController setMaxRotationAngle:]
+-[PhotoTweaksViewController delegate]
+-[PhotoTweaksViewController setDelegate:]
+-[PhotoTweaksViewController saveButtonTitleColor]
+-[PhotoTweaksViewController setSaveButtonTitleColor:]
+-[PhotoTweaksViewController saveButtonHighlightTitleColor]
+-[PhotoTweaksViewController setSaveButtonHighlightTitleColor:]
+-[PhotoTweaksViewController cancelButtonTitleColor]
+-[PhotoTweaksViewController setCancelButtonTitleColor:]
+-[PhotoTweaksViewController cancelButtonHighlightTitleColor]
+-[PhotoTweaksViewController setCancelButtonHighlightTitleColor:]
+-[PhotoTweaksViewController resetButtonTitleColor]
+-[PhotoTweaksViewController setResetButtonTitleColor:]
+-[PhotoTweaksViewController resetButtonHighlightTitleColor]
+-[PhotoTweaksViewController setResetButtonHighlightTitleColor:]
+-[PhotoTweaksViewController sliderTintColor]
+-[PhotoTweaksViewController setSliderTintColor:]
+-[PhotoTweaksViewController photoView]
+-[PhotoTweaksViewController setPhotoView:]
+-[PhotoTweaksViewController .cxx_destruct]
+_OBJC_IVAR_$_PhotoTweaksViewController._image
+_OBJC_IVAR_$_PhotoTweaksViewController._autoSaveToLibray
+_OBJC_IVAR_$_PhotoTweaksViewController._maxRotationAngle
+___block_descriptor_tmp
+___block_literal_global
+_OBJC_IVAR_$_PhotoTweaksViewController._delegate
+_OBJC_IVAR_$_PhotoTweaksViewController._saveButtonTitleColor
+_OBJC_IVAR_$_PhotoTweaksViewController._saveButtonHighlightTitleColor
+_OBJC_IVAR_$_PhotoTweaksViewController._cancelButtonTitleColor
+_OBJC_IVAR_$_PhotoTweaksViewController._cancelButtonHighlightTitleColor
+_OBJC_IVAR_$_PhotoTweaksViewController._resetButtonTitleColor
+_OBJC_IVAR_$_PhotoTweaksViewController._resetButtonHighlightTitleColor
+_OBJC_IVAR_$_PhotoTweaksViewController._sliderTintColor
+_OBJC_IVAR_$_PhotoTweaksViewController._photoView
+Apple LLVM version 8.1.0 (clang-802.0.42)
+/Users/pushian/Desktop/ios/demo/Carthage/PhotoTweaks/PhotoTweaks/PhotoTweaks/PhotoTweaksViewController.m
+/Users/pushian/Desktop/ios/demo/Carthage/PhotoTweaks
+/Users/pushian/Desktop/ios/demo/Carthage/PhotoTweaks/PhotoTweaks/PhotoTweaks/PhotoTweaksViewController.h
+CGRectMake
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGGeometry.h
+__42-[PhotoTweaksViewController saveBtnTapped]_block_invoke
+-[PhotoContentView initWithImage:]
+-[PhotoContentView layoutSubviews]
+-[PhotoContentView imageView]
+-[PhotoContentView setImageView:]
+-[PhotoContentView image]
+-[PhotoContentView setImage:]
+-[PhotoContentView .cxx_destruct]
+-[PhotoScrollView setContentOffsetY:]
+-[PhotoScrollView setContentOffsetX:]
+-[PhotoScrollView zoomScaleToBound]
+-[PhotoScrollView photoContentView]
+-[PhotoScrollView setPhotoContentView:]
+-[PhotoScrollView .cxx_destruct]
+-[CropCornerView initWithCornerType:]
+-[CropView initWithFrame:]
+-[CropView touchesBegan:withEvent:]
+-[CropView touchesMoved:withEvent:]
+-[CropView touchesEnded:withEvent:]
+-[CropView touchesCancelled:withEvent:]
+-[CropView updateCropLines:]
+___28-[CropView updateCropLines:]_block_invoke
+___copy_helper_block_
+___destroy_helper_block_
+-[CropView updateGridLines:]
+___28-[CropView updateGridLines:]_block_invoke
+___copy_helper_block_.129
+___destroy_helper_block_.130
+-[CropView updateLines:horizontal:]
+___35-[CropView updateLines:horizontal:]_block_invoke
+___copy_helper_block_.137
+___destroy_helper_block_.138
+-[CropView dismissCropLines]
+___28-[CropView dismissCropLines]_block_invoke
+___copy_helper_block_.145
+___destroy_helper_block_.146
+___28-[CropView dismissCropLines]_block_invoke.148
+___copy_helper_block_.151
+___destroy_helper_block_.152
+-[CropView dismissGridLines]
+___28-[CropView dismissGridLines]_block_invoke
+___copy_helper_block_.157
+___destroy_helper_block_.158
+___28-[CropView dismissGridLines]_block_invoke.160
+___copy_helper_block_.163
+___destroy_helper_block_.164
+-[CropView dismissLines:]
+___25-[CropView dismissLines:]_block_invoke
+-[CropView showCropLines]
+___25-[CropView showCropLines]_block_invoke
+___copy_helper_block_.171
+___destroy_helper_block_.172
+-[CropView showGridLines]
+___25-[CropView showGridLines]_block_invoke
+___copy_helper_block_.174
+___destroy_helper_block_.175
+-[CropView showLines:]
+___22-[CropView showLines:]_block_invoke
+-[CropView upperLeft]
+-[CropView setUpperLeft:]
+-[CropView upperRight]
+-[CropView setUpperRight:]
+-[CropView lowerRight]
+-[CropView setLowerRight:]
+-[CropView lowerLeft]
+-[CropView setLowerLeft:]
+-[CropView horizontalCropLines]
+-[CropView setHorizontalCropLines:]
+-[CropView verticalCropLines]
+-[CropView setVerticalCropLines:]
+-[CropView horizontalGridLines]
+-[CropView setHorizontalGridLines:]
+-[CropView verticalGridLines]
+-[CropView setVerticalGridLines:]
+-[CropView delegate]
+-[CropView setDelegate:]
+-[CropView cropLinesDismissed]
+-[CropView setCropLinesDismissed:]
+-[CropView gridLinesDismissed]
+-[CropView setGridLinesDismissed:]
+-[CropView .cxx_destruct]
+-[PhotoTweakView initWithFrame:image:maxRotationAngle:]
+-[PhotoTweakView initWithFrame:image:]
+-[PhotoTweakView hitTest:withEvent:]
+-[PhotoTweakView viewForZoomingInScrollView:]
+-[PhotoTweakView scrollViewDidEndZooming:withView:atScale:]
+-[PhotoTweakView cropMoved:]
+-[PhotoTweakView cropEnded:]
+___28-[PhotoTweakView cropEnded:]_block_invoke
+___copy_helper_block_.348
+___destroy_helper_block_.349
+___28-[PhotoTweakView cropEnded:]_block_invoke.354
+___28-[PhotoTweakView cropEnded:]_block_invoke_2
+___copy_helper_block_.361
+___destroy_helper_block_.362
+___copy_helper_block_.364
+___destroy_helper_block_.365
+-[PhotoTweakView updateMasks:]
+___30-[PhotoTweakView updateMasks:]_block_invoke
+___copy_helper_block_.375
+___destroy_helper_block_.376
+-[PhotoTweakView checkScrollViewContentOffset]
+-[PhotoTweakView sliderValueChanged:]
+-[PhotoTweakView sliderTouchEnded:]
+-[PhotoTweakView resetBtnTapped:]
+___33-[PhotoTweakView resetBtnTapped:]_block_invoke
+___copy_helper_block_.393
+___destroy_helper_block_.394
+-[PhotoTweakView photoTranslation]
+-[PhotoTweakView angle]
+-[PhotoTweakView setAngle:]
+-[PhotoTweakView photoContentOffset]
+-[PhotoTweakView cropView]
+-[PhotoTweakView setCropView:]
+-[PhotoTweakView photoContentView]
+-[PhotoTweakView slider]
+-[PhotoTweakView setSlider:]
+-[PhotoTweakView resetBtn]
+-[PhotoTweakView setResetBtn:]
+-[PhotoTweakView scrollView]
+-[PhotoTweakView setScrollView:]
+-[PhotoTweakView image]
+-[PhotoTweakView setImage:]
+-[PhotoTweakView originalSize]
+-[PhotoTweakView setOriginalSize:]
+-[PhotoTweakView manualZoomed]
+-[PhotoTweakView setManualZoomed:]
+-[PhotoTweakView topMask]
+-[PhotoTweakView setTopMask:]
+-[PhotoTweakView leftMask]
+-[PhotoTweakView setLeftMask:]
+-[PhotoTweakView bottomMask]
+-[PhotoTweakView setBottomMask:]
+-[PhotoTweakView rightMask]
+-[PhotoTweakView setRightMask:]
+-[PhotoTweakView maximumCanvasSize]
+-[PhotoTweakView setMaximumCanvasSize:]
+-[PhotoTweakView centerY]
+-[PhotoTweakView setCenterY:]
+-[PhotoTweakView originalPoint]
+-[PhotoTweakView setOriginalPoint:]
+-[PhotoTweakView maxRotationAngle]
+-[PhotoTweakView setMaxRotationAngle:]
+-[PhotoTweakView .cxx_destruct]
+_OBJC_IVAR_$_PhotoContentView._image
+_OBJC_IVAR_$_PhotoContentView._imageView
+_OBJC_IVAR_$_PhotoScrollView._photoContentView
+_OBJC_IVAR_$_CropView._horizontalCropLines
+_OBJC_IVAR_$_CropView._verticalCropLines
+_OBJC_IVAR_$_CropView._horizontalGridLines
+_OBJC_IVAR_$_CropView._verticalGridLines
+_OBJC_IVAR_$_CropView._cropLinesDismissed
+_OBJC_IVAR_$_CropView._gridLinesDismissed
+_OBJC_IVAR_$_CropView._upperLeft
+_OBJC_IVAR_$_CropView._upperRight
+_OBJC_IVAR_$_CropView._lowerRight
+_OBJC_IVAR_$_CropView._lowerLeft
+___block_descriptor_tmp.131
+___block_descriptor_tmp.140
+___block_descriptor_tmp.147
+___block_descriptor_tmp.154
+___block_descriptor_tmp.159
+___block_descriptor_tmp.165
+___block_descriptor_tmp.168
+___block_descriptor_tmp.173
+___block_descriptor_tmp.176
+___block_descriptor_tmp.177
+___block_literal_global.178
+_OBJC_IVAR_$_CropView._delegate
+_OBJC_IVAR_$_PhotoTweakView._image
+_OBJC_IVAR_$_PhotoTweakView._maxRotationAngle
+_OBJC_IVAR_$_PhotoTweakView._maximumCanvasSize
+_OBJC_IVAR_$_PhotoTweakView._originalSize
+_OBJC_IVAR_$_PhotoTweakView._centerY
+_OBJC_IVAR_$_PhotoTweakView._scrollView
+_OBJC_IVAR_$_PhotoTweakView._photoContentView
+_OBJC_IVAR_$_PhotoTweakView._cropView
+_OBJC_IVAR_$_PhotoTweakView._topMask
+_OBJC_IVAR_$_PhotoTweakView._leftMask
+_OBJC_IVAR_$_PhotoTweakView._bottomMask
+_OBJC_IVAR_$_PhotoTweakView._rightMask
+_OBJC_IVAR_$_PhotoTweakView._slider
+_OBJC_IVAR_$_PhotoTweakView._resetBtn
+_OBJC_IVAR_$_PhotoTweakView._originalPoint
+___block_descriptor_tmp.350
+___block_descriptor_tmp.363
+___block_descriptor_tmp.366
+___block_descriptor_tmp.377
+___block_descriptor_tmp.395
+_OBJC_IVAR_$_PhotoTweakView._angle
+_OBJC_IVAR_$_PhotoTweakView._photoContentOffset
+_OBJC_IVAR_$_PhotoTweakView._manualZoomed
+l_OBJC_PROTOCOL_$_NSObject
+l_OBJC_LABEL_PROTOCOL_$_NSObject
+l_OBJC_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_UIScrollViewDelegate
+l_OBJC_PROTOCOL_$_CropViewDelegate
+l_OBJC_LABEL_PROTOCOL_$_CropViewDelegate
+/Users/pushian/Desktop/ios/demo/Carthage/PhotoTweaks/PhotoTweaks/PhotoTweaks/PhotoTweakView.m
+/Users/pushian/Desktop/ios/demo/Carthage/PhotoTweaks/PhotoTweaks/PhotoTweaks/PhotoTweakView.h
+CGPointMake
+__destroy_helper_block_
+__copy_helper_block_
+__33-[PhotoTweakView resetBtnTapped:]_block_invoke
+__30-[PhotoTweakView updateMasks:]_block_invoke
+__28-[PhotoTweakView cropEnded:]_block_invoke_2
+__28-[PhotoTweakView cropEnded:]_block_invoke.354
+__28-[PhotoTweakView cropEnded:]_block_invoke
+__22-[CropView showLines:]_block_invoke
+__25-[CropView showGridLines]_block_invoke
+__25-[CropView showCropLines]_block_invoke
+__25-[CropView dismissLines:]_block_invoke
+__28-[CropView dismissGridLines]_block_invoke.160
+__28-[CropView dismissGridLines]_block_invoke
+__28-[CropView dismissCropLines]_block_invoke.148
+__28-[CropView dismissCropLines]_block_invoke
+__35-[CropView updateLines:horizontal:]_block_invoke
+__28-[CropView updateGridLines:]_block_invoke
+__28-[CropView updateCropLines:]_block_invoke
+distanceBetweenPoints
++[UIColor(Tweak) cancelButtonColor]
++[UIColor(Tweak) cancelButtonHighlightedColor]
++[UIColor(Tweak) saveButtonColor]
++[UIColor(Tweak) saveButtonHighlightedColor]
++[UIColor(Tweak) resetButtonColor]
++[UIColor(Tweak) resetButtonHighlightedColor]
++[UIColor(Tweak) maskColor]
++[UIColor(Tweak) cropLineColor]
++[UIColor(Tweak) gridLineColor]
++[UIColor(Tweak) photoTweakCanvasBackgroundColor]
+/Users/pushian/Desktop/ios/demo/Carthage/PhotoTweaks/PhotoTweaks/PhotoTweaks/UIColor+Tweak.m
+/Users/pushian/Library/Developer/Xcode/DerivedData/PhotoTweaks-crgzkywfkvhleqdtyywfhcechmcm/Build/Intermediates/PhotoTweaks.build/Release-iphoneos/PushianPhotoTweaks.build/DerivedSources/PushianPhotoTweaks_vers.c
